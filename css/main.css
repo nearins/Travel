@@ -86,8 +86,8 @@ h2 + p {
 /*Circle photo*/
 .img-circle {
 	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 }
 footer {
 	background-color:#222222;
