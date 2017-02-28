@@ -1,0 +1,107 @@
+html,
+body,
+.cover {
+	height: 100%;
+}
+/*Opacity navigation*/
+.bg-inverse {
+	background-color: rgba(0, 0, 0, 0.5) !important;	
+}
+/*Hero image*/
+.cover {
+	background: url('../img/hero-img.jpg') top left no-repeat;
+	background-size: cover;
+/* verticaly align text*/
+	display: table;
+	width: 100%;
+	padding: 0 20%;
+	box-shadow: inset 0 0 100px #000000;	
+}
+.cover-text {
+	text-align: center;
+	color: #FFFFFF;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	z-index: 10;
+}
+.cover-text h1 {
+	margin:0;
+	font-size:70px;
+	letter-spacing: -3px;
+}
+/*Hero image darken*/
+.overlay-b {
+	background-color:rgb(34, 34, 34);
+	z-index: 9;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+	opacity: 0.7;
+}
+.testimonial {
+	background:#222222;
+}
+blockquote {
+	border:none;
+	margin:0;
+	font-family: Georgia, Times, serif;
+	font-style:italic;
+	font-size:32px;
+	color:#FFFFFF;	
+}
+blockquote cite {
+	display:block;
+	text-align: right;
+	text-transform: uppercase;
+	font-family: Halvetica,Arial,sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: bold;
+	color:#888888;
+	margin-top:40px;
+}
+section {
+	padding: 100px;	
+}
+h2 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 60px;
+}
+h2 + p {
+	text-align: center;
+	margin-top: -60px;
+}
+.team {
+	background: url('../img/background2.png') top left no-repeat;
+	background-size: cover;
+	color:#FFFFFF;
+	text-align: center;		
+}
+/*Circle photo*/
+.img-circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+footer {
+	background-color:#222222;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px;
+	font-family: Georgia, Times, serif;
+}
+/*Media Queries*/
+@media only screen and (max-width: 568px) {
+	.cover h1 {
+		font-size: 40px;
+	}
+	section{
+		padding:20px;
+	}
+}
